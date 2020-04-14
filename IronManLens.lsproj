@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1586899415391",
+    "lastChanged": "1586899648436",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,6 +29,9 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Credit Alpha"
+                    ],
                     [
                         "FaceShield"
                     ],
@@ -1250,9 +1253,7 @@
         },
         "SceneTreeUiComponent": {
             "collapsedList": [
-                [
-                    "1586898659873462:109800"
-                ]
+                ""
             ]
         },
         "MetaInfoUIComponent": {
@@ -3256,6 +3257,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "251",
+                    "uid": "1586899548836608:220273",
+                    "name": "Files\/File145.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3272,7 +3281,22 @@
                     "uidsToFeatureNamesWithIntensity": ""
                 },
                 "ScreenTransform": {
-                    "uidData": "",
+                    "uidData": [
+                        {
+                            "k": "1586899564905273:229570",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
                     "generalData": ""
                 }
             }
@@ -3290,12 +3314,15 @@
                 "8": "1586873743944639:54726",
                 "9": "1586873743951720:54746",
                 "10": "1586898139761288:35888",
-                "11": "1586898659873462:109800"
+                "11": "1586898659873462:109800",
+                "12": "1586899564861322:229369",
+                "13": "1586899564874189:229434",
+                "14": "1586899564905093:229569"
             }
         },
         "LayerComponent": {
             "nextLayerId": "2",
-            "showOrthographicLayer": "false",
+            "showOrthographicLayer": "true",
             "layersInfo": [
                 {
                     "layerId": "0",
@@ -3880,6 +3907,10 @@
                 {
                     "k": "144",
                     "v": "Files\/File144.png"
+                },
+                {
+                    "k": "145",
+                    "v": "Files\/File145.js"
                 }
             ]
         },
@@ -3959,6 +3990,10 @@
                     {
                         "k": "20",
                         "v": "Icon Snippet.png"
+                    },
+                    {
+                        "k": "21",
+                        "v": "Credit Alpha.js"
                     }
                 ],
                 "hashes": [
@@ -4012,7 +4047,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "53a70cc011dea9ab06b3bcede8a924ac"
+                        "v": "f49b3b64f8cd97b689d8a6890ddcfa3e"
                     },
                     {
                         "k": "18",
@@ -4020,7 +4055,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "6d412f3bc2613dcedf77a639761aa76b"
+                        "v": "d8e19f10069e3f34e462d11930369a83"
                     },
                     {
                         "k": "20",
@@ -4028,21 +4063,21 @@
                     },
                     {
                         "k": "21",
-                        "v": "2ab50c64f20095d0b06db3b8adf56075"
+                        "v": "db50ced2ab3f6080ee3a2da797902079"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-14T17:23:00",
+                        "lastModified": "2020-04-14T17:27:23",
                         "name": "Public",
-                        "hash": "d93f14c3764d6004455666a192faefee",
+                        "hash": "2e271cac94b9e6f5d0d12031101e0c9a",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:23:00",
+                                "lastModified": "2020-04-14T17:27:23",
                                 "name": "FaceShield.lsmat",
-                                "hash": "90ceabaca434e9939d8c7618e1e7c80f",
+                                "hash": "0bdbe901e910a431c167692ca1163e36",
                                 "children": ""
                             },
                             {
@@ -4090,9 +4125,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:23:00",
+                                "lastModified": "2020-04-14T17:27:23",
                                 "name": "Helm.lsmat",
-                                "hash": "a647ea1164e3ceb54beef4bc23bd3d27",
+                                "hash": "0c4d3998c817f826160220a0a3be7d9d",
                                 "children": ""
                             },
                             {
@@ -4100,6 +4135,13 @@
                                 "lastModified": "2019-11-26T15:05:40",
                                 "name": "model.gltf",
                                 "hash": "b8f5b0b4448535a47bdbfb82a618cff2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-04-14T17:26:01",
+                                "name": "Credit Alpha.js",
+                                "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
@@ -7408,6 +7450,19 @@
                         "publicId": "20",
                         "source": "\/Users\/ejwessel\/Desktop\/Screen Shot 2020-04-14 at 5.09.33 PM.png",
                         "additional": ""
+                    },
+                    {
+                        "name": "Credit Alpha",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "251",
+                        "dependency": "0",
+                        "uid": "1586899548836608:220273",
+                        "fileId": "145",
+                        "originalId": "18446744073709551615",
+                        "publicId": "21",
+                        "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-yyCpYp\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
@@ -7415,7 +7470,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1528843813151434:5126"
+                    "1586899564905093:229569"
                 ]
             }
         },
