@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1586899648436",
+    "lastChanged": "1586901114413",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -46,6 +46,10 @@
                     ],
                     [
                         "Textures",
+                        "Car_Paint_Noise"
+                    ],
+                    [
+                        "Textures",
                         "iridescence_combined"
                     ],
                     [
@@ -53,9 +57,6 @@
                     ],
                     [
                         "echopark_spec"
-                    ],
-                    [
-                        "model"
                     ],
                     [
                         "model",
@@ -630,10 +631,6 @@
                         "model",
                         "Animations",
                         "RootNode_"
-                    ],
-                    [
-                        "model",
-                        "Materials"
                     ],
                     [
                         "model",
@@ -3265,6 +3262,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "253",
+                    "uid": "1586899916636440:314386",
+                    "name": "Files\/File148.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3911,6 +3916,14 @@
                 {
                     "k": "145",
                     "v": "Files\/File145.js"
+                },
+                {
+                    "k": "148",
+                    "v": "Files\/File148.jpg"
+                },
+                {
+                    "k": "149",
+                    "v": "Files\/File149.jpg"
                 }
             ]
         },
@@ -3994,6 +4007,10 @@
                     {
                         "k": "21",
                         "v": "Credit Alpha.js"
+                    },
+                    {
+                        "k": "22",
+                        "v": "Textures\/Car_Paint_Noise.jpg"
                     }
                 ],
                 "hashes": [
@@ -4019,7 +4036,7 @@
                     },
                     {
                         "k": "9",
-                        "v": "1989d6218e7796c5e1c851bd28d623eb"
+                        "v": "fd6b1df3d5f0f35e18b6b563b64662b2"
                     },
                     {
                         "k": "10",
@@ -4031,7 +4048,7 @@
                     },
                     {
                         "k": "12",
-                        "v": "cff74cbd89bd407778af50a97f1170bc"
+                        "v": "b32ca9315c2ab525c25730c602a98b0b"
                     },
                     {
                         "k": "13",
@@ -4047,7 +4064,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "f49b3b64f8cd97b689d8a6890ddcfa3e"
+                        "v": "565094f5c0aaf9765fad86417da6fbaf"
                     },
                     {
                         "k": "18",
@@ -4055,7 +4072,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "d8e19f10069e3f34e462d11930369a83"
+                        "v": "6e60d2edb6a9a9cf84666d068cdc4b76"
                     },
                     {
                         "k": "20",
@@ -4064,28 +4081,51 @@
                     {
                         "k": "21",
                         "v": "db50ced2ab3f6080ee3a2da797902079"
+                    },
+                    {
+                        "k": "22",
+                        "v": "0c54c119030470f52a2c73733233d08d"
+                    },
+                    {
+                        "k": "23",
+                        "v": "2a279c779d7f5ae471dc3cc0ec236eff"
+                    },
+                    {
+                        "k": "24",
+                        "v": "2a279c779d7f5ae471dc3cc0ec236eff"
+                    },
+                    {
+                        "k": "25",
+                        "v": "ce7738269a223b808fc27d9bb283b75e"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-14T17:27:23",
+                        "lastModified": "2020-04-14T17:49:37",
                         "name": "Public",
-                        "hash": "2e271cac94b9e6f5d0d12031101e0c9a",
+                        "hash": "77d03e70dcf12826e99f06d9dacccdc3",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:27:23",
+                                "lastModified": "2020-04-14T17:49:36",
                                 "name": "FaceShield.lsmat",
-                                "hash": "0bdbe901e910a431c167692ca1163e36",
+                                "hash": "4a81bf0be257993f99b0a905a67aaba7",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-14T10:21:19",
+                                "lastModified": "2020-04-14T17:31:56",
                                 "name": "Textures",
-                                "hash": "ed69ed08610aa420068b1c5df7d5c1ec",
+                                "hash": "d9307bdf22b0d9d7019f0ae8f42e556d",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-04-14T17:31:56",
+                                        "name": "Car_Paint_Noise.jpg",
+                                        "hash": "0c54c119030470f52a2c73733233d08d",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-04-14T10:21:19",
@@ -4125,9 +4165,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:27:23",
+                                "lastModified": "2020-04-14T17:49:37",
                                 "name": "Helm.lsmat",
-                                "hash": "0c4d3998c817f826160220a0a3be7d9d",
+                                "hash": "b071a1caabbe2a0f908d09810692cbb6",
                                 "children": ""
                             },
                             {
@@ -7409,6 +7449,19 @@
                                 "publicId": "16",
                                 "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-Afnugy\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Car_Paint_Noise",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "253",
+                                "dependency": "0",
+                                "uid": "1586899916636440:314386",
+                                "fileId": "148",
+                                "originalId": "149",
+                                "publicId": "22",
+                                "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-yyCpYp\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
                             }
                         ]
                     },
@@ -7469,8 +7522,15 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1586899564905093:229569"
+                "resources": [
+                    {
+                        "uid": "1586873584901284:10107",
+                        "path_list": [
+                            "model",
+                            "Materials",
+                            "HD_Ironman_yellow"
+                        ]
+                    }
                 ]
             }
         },
