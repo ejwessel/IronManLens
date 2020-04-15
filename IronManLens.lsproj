@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1586901114413",
+    "lastChanged": "1586993350791",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -57,6 +57,9 @@
                     ],
                     [
                         "echopark_spec"
+                    ],
+                    [
+                        "model"
                     ],
                     [
                         "model",
@@ -631,6 +634,10 @@
                         "model",
                         "Animations",
                         "RootNode_"
+                    ],
+                    [
+                        "model",
+                        "Materials"
                     ],
                     [
                         "model",
@@ -3270,6 +3277,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "254",
+                    "uid": "1586989830916157:78239",
+                    "name": "Files\/File150.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3322,7 +3337,8 @@
                 "11": "1586898659873462:109800",
                 "12": "1586899564861322:229369",
                 "13": "1586899564874189:229434",
-                "14": "1586899564905093:229569"
+                "14": "1586899564905093:229569",
+                "15": "1586992974272351:404180"
             }
         },
         "LayerComponent": {
@@ -3924,6 +3940,10 @@
                 {
                     "k": "149",
                     "v": "Files\/File149.jpg"
+                },
+                {
+                    "k": "150",
+                    "v": "Files\/File150.js"
                 }
             ]
         },
@@ -4011,6 +4031,10 @@
                     {
                         "k": "22",
                         "v": "Textures\/Car_Paint_Noise.jpg"
+                    },
+                    {
+                        "k": "26",
+                        "v": "FaceplateAnimation.js"
                     }
                 ],
                 "hashes": [
@@ -4064,7 +4088,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "565094f5c0aaf9765fad86417da6fbaf"
+                        "v": "ee20aef17a0831c4c804fcf6af66eb79"
                     },
                     {
                         "k": "18",
@@ -4072,7 +4096,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "6e60d2edb6a9a9cf84666d068cdc4b76"
+                        "v": "4970279a1553dd114f918d27191f8668"
                     },
                     {
                         "k": "20",
@@ -4097,45 +4121,49 @@
                     {
                         "k": "25",
                         "v": "ce7738269a223b808fc27d9bb283b75e"
+                    },
+                    {
+                        "k": "26",
+                        "v": "9b3dfdae39401dffa8c8a7d0ade3d63e"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-14T17:49:37",
+                        "lastModified": "2020-04-15T19:29:06",
                         "name": "Public",
-                        "hash": "77d03e70dcf12826e99f06d9dacccdc3",
+                        "hash": "67b572193f4937b5a19779c32f083e3e",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:49:36",
+                                "lastModified": "2020-04-15T19:29:06",
                                 "name": "FaceShield.lsmat",
-                                "hash": "4a81bf0be257993f99b0a905a67aaba7",
+                                "hash": "c3f1cf4e672190190b1aaaa2cd4ab54e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-14T17:31:56",
+                                "lastModified": "2020-04-14T18:49:30",
                                 "name": "Textures",
                                 "hash": "d9307bdf22b0d9d7019f0ae8f42e556d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T17:31:56",
+                                        "lastModified": "2020-04-14T18:49:30",
                                         "name": "Car_Paint_Noise.jpg",
                                         "hash": "0c54c119030470f52a2c73733233d08d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T10:21:19",
+                                        "lastModified": "2020-04-14T18:33:36",
                                         "name": "iridescence_combined.png",
                                         "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T10:21:19",
+                                        "lastModified": "2020-04-14T18:46:21",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4144,49 +4172,56 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-12-13T20:21:52",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "echopark_diff.png",
                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-12-13T20:21:52",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "echopark_spec.png",
                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:09:39",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "Icon Snippet.png",
                                 "hash": "2f0e549a7921634ab8669abd38078b75",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:49:37",
+                                "lastModified": "2020-04-15T19:29:06",
                                 "name": "Helm.lsmat",
-                                "hash": "b071a1caabbe2a0f908d09810692cbb6",
+                                "hash": "f53ac8827cdde3fa540bb1261513c58e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-11-26T15:05:40",
+                                "lastModified": "2020-04-15T19:28:35",
+                                "name": "FaceplateAnimation.js",
+                                "hash": "9b3dfdae39401dffa8c8a7d0ade3d63e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "model.gltf",
                                 "hash": "b8f5b0b4448535a47bdbfb82a618cff2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T17:26:01",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "Credit Alpha.js",
                                 "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-12-13T20:21:47",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -7516,21 +7551,27 @@
                         "publicId": "21",
                         "source": "\/var\/folders\/s_\/tvtszf7j2qs32p9nc96p655m0000gn\/T\/Lens Studio-yyCpYp\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
+                    },
+                    {
+                        "name": "FaceplateAnimation",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "254",
+                        "dependency": "0",
+                        "uid": "1586989830916157:78239",
+                        "fileId": "150",
+                        "originalId": "18446744073709551615",
+                        "publicId": "26",
+                        "source": "\/Users\/ejwessel\/Dev\/IronManLens\/Public\/FaceplateAnimation.js",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1586873584901284:10107",
-                        "path_list": [
-                            "model",
-                            "Materials",
-                            "HD_Ironman_yellow"
-                        ]
-                    }
+                "objects": [
+                    "1586992974272351:404180"
                 ]
             }
         },
