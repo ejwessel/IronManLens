@@ -191,6 +191,8 @@ function setupTween()
                 break;
             case 3:
                 script.api.end = (script.type == 2) ? transformParameter.multiply(quat.angleAxis(script.offset.x * DEG_TO_RAD, vec3.right())).multiply(quat.angleAxis(script.offset.y * DEG_TO_RAD, vec3.up())).multiply(quat.angleAxis(script.offset.z * DEG_TO_RAD, vec3.forward())) : new vec3 ( transformParameter.x + script.offset.x, transformParameter.y + script.offset.y, transformParameter.z + script.offset.z );
+                // this reverses the offset
+                script.offset.x *= -1    
                 break;
         }
     }

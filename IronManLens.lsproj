@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1587003256402",
+    "lastChanged": "1587004377517",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -4141,7 +4141,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "a83c4d756e0d50b83900a356f99fdd9f"
+                        "v": "fff891cf0a99fd1ebffde03b5b4bf511"
                     },
                     {
                         "k": "18",
@@ -4149,7 +4149,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "4bfbd5669a7adab85b10f1de91852d14"
+                        "v": "92c5ace338dfe73728710b9552bacd86"
                     },
                     {
                         "k": "20",
@@ -4185,7 +4185,7 @@
                     },
                     {
                         "k": "80",
-                        "v": "b8c4f74a16d1548b5c8cecb4b54a3c89"
+                        "v": "0a9aa9277099e3436f2e5c11c13aafec"
                     },
                     {
                         "k": "81",
@@ -4242,20 +4242,24 @@
                     {
                         "k": "100",
                         "v": "54b5e21104a4a7f86b3d510596fdc27e"
+                    },
+                    {
+                        "k": "101",
+                        "v": "e725308b44b962ff4fac89d754190047"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-15T22:11:50",
+                        "lastModified": "2020-04-15T22:32:51",
                         "name": "Public",
-                        "hash": "4b1a2e01139b49e7de21c8aadf78be80",
+                        "hash": "63ec12a8dec1c10ae1921d61fa7daa6b",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:11:50",
+                                "lastModified": "2020-04-15T22:31:41",
                                 "name": "FaceShield.lsmat",
-                                "hash": "4a21de4ee8d1d21de611949838e49382",
+                                "hash": "cd6d6f542aacbb787541f3e516cd2ddf",
                                 "children": ""
                             },
                             {
@@ -4291,19 +4295,19 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-04-15T22:07:57",
                                 "name": "Tween",
-                                "hash": "312dbe50b456b355105bff5748373e4d",
+                                "hash": "79b3bb48bdb2b54ab50a2e2154f50628",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-04-15T22:08:15",
+                                        "lastModified": "2020-04-15T22:31:34",
                                         "name": "TweenTypes",
-                                        "hash": "5f20de1e136d3da749790250d3d28b0f",
+                                        "hash": "70b123c718ead5b5463c94e059290b16",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-04-15T22:01:05",
+                                                "lastModified": "2020-04-15T22:31:34",
                                                 "name": "TweenTransform.js",
-                                                "hash": "b8c4f74a16d1548b5c8cecb4b54a3c89",
+                                                "hash": "0a9aa9277099e3436f2e5c11c13aafec",
                                                 "children": ""
                                             },
                                             {
@@ -4361,9 +4365,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:11:50",
+                                "lastModified": "2020-04-15T22:31:41",
                                 "name": "Helm.lsmat",
-                                "hash": "53ff962b0bc8c9b4d1c151c90579e61d",
+                                "hash": "1943905513b573fd986e350cbe1ceb5b",
                                 "children": ""
                             },
                             {
@@ -7786,11 +7790,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1586992974272351:404180"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
