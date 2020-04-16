@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1586993350791",
+    "lastChanged": "1587003256402",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -51,6 +51,19 @@
                     [
                         "Textures",
                         "iridescence_combined"
+                    ],
+                    [
+                        "Tween",
+                        "Tween"
+                    ],
+                    [
+                        "Tween",
+                        "TweenManager"
+                    ],
+                    [
+                        "Tween",
+                        "TweenTypes",
+                        "TweenTransform"
                     ],
                     [
                         "echopark_diff"
@@ -3279,9 +3292,25 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "254",
-                    "uid": "1586989830916157:78239",
-                    "name": "Files\/File150.js",
+                    "resId": "255",
+                    "uid": "1587002466453014:145688",
+                    "name": "Files\/File151.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "256",
+                    "uid": "1587002466523338:145700",
+                    "name": "Files\/File152.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "257",
+                    "uid": "1587002466756711:145712",
+                    "name": "Files\/File153.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -3942,8 +3971,16 @@
                     "v": "Files\/File149.jpg"
                 },
                 {
-                    "k": "150",
-                    "v": "Files\/File150.js"
+                    "k": "151",
+                    "v": "Files\/File151.js"
+                },
+                {
+                    "k": "152",
+                    "v": "Files\/File152.js"
+                },
+                {
+                    "k": "153",
+                    "v": "Files\/File153.js"
                 }
             ]
         },
@@ -4033,8 +4070,24 @@
                         "v": "Textures\/Car_Paint_Noise.jpg"
                     },
                     {
-                        "k": "26",
-                        "v": "FaceplateAnimation.js"
+                        "k": "77",
+                        "v": "Tween"
+                    },
+                    {
+                        "k": "78",
+                        "v": "Tween\/Tween.js"
+                    },
+                    {
+                        "k": "79",
+                        "v": "Tween\/TweenTypes"
+                    },
+                    {
+                        "k": "80",
+                        "v": "Tween\/TweenTypes\/TweenTransform.js"
+                    },
+                    {
+                        "k": "81",
+                        "v": "Tween\/TweenManager.js"
                     }
                 ],
                 "hashes": [
@@ -4088,7 +4141,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "ee20aef17a0831c4c804fcf6af66eb79"
+                        "v": "a83c4d756e0d50b83900a356f99fdd9f"
                     },
                     {
                         "k": "18",
@@ -4096,7 +4149,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "4970279a1553dd114f918d27191f8668"
+                        "v": "4bfbd5669a7adab85b10f1de91852d14"
                     },
                     {
                         "k": "20",
@@ -4124,46 +4177,161 @@
                     },
                     {
                         "k": "26",
-                        "v": "9b3dfdae39401dffa8c8a7d0ade3d63e"
+                        "v": "d7fad3192e081817b5b9c5613ca529bd"
+                    },
+                    {
+                        "k": "78",
+                        "v": "db1633dd326bc8f976dd02c2fdb5bbf4"
+                    },
+                    {
+                        "k": "80",
+                        "v": "b8c4f74a16d1548b5c8cecb4b54a3c89"
+                    },
+                    {
+                        "k": "81",
+                        "v": "a094f372f9487690786f930bd7030e82"
+                    },
+                    {
+                        "k": "84",
+                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
+                    },
+                    {
+                        "k": "85",
+                        "v": "c131d6b8c0d4a0024e8bc15b93f5b58b"
+                    },
+                    {
+                        "k": "86",
+                        "v": "4ca6ca961ac63737cdfdb95767c3e077"
+                    },
+                    {
+                        "k": "88",
+                        "v": "871e69e1d4fb4192ebb4b4623bd6ede7"
+                    },
+                    {
+                        "k": "89",
+                        "v": "8a3af68c16493bc48b0f7f17a1d6c065"
+                    },
+                    {
+                        "k": "90",
+                        "v": "a8212c4a0d7f900c75c80ad4829f91f0"
+                    },
+                    {
+                        "k": "91",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    },
+                    {
+                        "k": "92",
+                        "v": "550028626efc41ac36131021cda09b5e"
+                    },
+                    {
+                        "k": "93",
+                        "v": "15f4c60fdceda581e50db7b5e824cda4"
+                    },
+                    {
+                        "k": "95",
+                        "v": "0848b1e15361646ee767a1ad1a0a598a"
+                    },
+                    {
+                        "k": "96",
+                        "v": "bce2a71b0fae3e6bdb919b5deb42658b"
+                    },
+                    {
+                        "k": "97",
+                        "v": "3c5066e94d9c9a9e1d5b39ad3db51054"
+                    },
+                    {
+                        "k": "100",
+                        "v": "54b5e21104a4a7f86b3d510596fdc27e"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-15T19:29:06",
+                        "lastModified": "2020-04-15T22:11:50",
                         "name": "Public",
-                        "hash": "67b572193f4937b5a19779c32f083e3e",
+                        "hash": "4b1a2e01139b49e7de21c8aadf78be80",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T19:29:06",
+                                "lastModified": "2020-04-15T22:11:50",
                                 "name": "FaceShield.lsmat",
-                                "hash": "c3f1cf4e672190190b1aaaa2cd4ab54e",
+                                "hash": "4a21de4ee8d1d21de611949838e49382",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-14T18:49:30",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "Textures",
                                 "hash": "d9307bdf22b0d9d7019f0ae8f42e556d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T18:49:30",
+                                        "lastModified": "2020-04-15T21:33:26",
                                         "name": "Car_Paint_Noise.jpg",
                                         "hash": "0c54c119030470f52a2c73733233d08d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T18:33:36",
+                                        "lastModified": "2020-04-15T21:33:26",
                                         "name": "iridescence_combined.png",
                                         "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T18:46:21",
+                                        "lastModified": "2020-04-15T21:33:26",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-04-15T22:07:57",
+                                "name": "Tween",
+                                "hash": "312dbe50b456b355105bff5748373e4d",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-04-15T22:08:15",
+                                        "name": "TweenTypes",
+                                        "hash": "5f20de1e136d3da749790250d3d28b0f",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-04-15T22:01:05",
+                                                "name": "TweenTransform.js",
+                                                "hash": "b8c4f74a16d1548b5c8cecb4b54a3c89",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-04-15T22:01:06",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-04-15T22:01:05",
+                                        "name": "TweenManager.js",
+                                        "hash": "a094f372f9487690786f930bd7030e82",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-04-15T22:01:05",
+                                        "name": "Tween.js",
+                                        "hash": "db1633dd326bc8f976dd02c2fdb5bbf4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-04-15T22:01:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4172,56 +4340,49 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "echopark_diff.png",
                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "echopark_spec.png",
                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "Icon Snippet.png",
                                 "hash": "2f0e549a7921634ab8669abd38078b75",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T19:29:06",
+                                "lastModified": "2020-04-15T22:11:50",
                                 "name": "Helm.lsmat",
-                                "hash": "f53ac8827cdde3fa540bb1261513c58e",
+                                "hash": "53ff962b0bc8c9b4d1c151c90579e61d",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T19:28:35",
-                                "name": "FaceplateAnimation.js",
-                                "hash": "9b3dfdae39401dffa8c8a7d0ade3d63e",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "model.gltf",
                                 "hash": "b8f5b0b4448535a47bdbfb82a618cff2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "Credit Alpha.js",
                                 "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-15T21:33:26",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -7553,17 +7714,73 @@
                         "additional": ""
                     },
                     {
-                        "name": "FaceplateAnimation",
-                        "type": "4",
-                        "subtype": "0",
-                        "resourceId": "254",
+                        "name": "Tween",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
                         "dependency": "0",
-                        "uid": "1586989830916157:78239",
-                        "fileId": "150",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "26",
-                        "source": "\/Users\/ejwessel\/Dev\/IronManLens\/Public\/FaceplateAnimation.js",
-                        "additional": ""
+                        "publicId": "77",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Tween",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "255",
+                                "dependency": "0",
+                                "uid": "1587002466453014:145688",
+                                "fileId": "151",
+                                "originalId": "18446744073709551615",
+                                "publicId": "78",
+                                "source": "\/var\/folders\/3l\/pxx9ncrs6j38399lw07gqxbw0000gn\/T\/Lens Studio-EdczyV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "TweenTypes",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "79",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "TweenTransform",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "256",
+                                        "dependency": "0",
+                                        "uid": "1587002466523338:145700",
+                                        "fileId": "152",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "80",
+                                        "source": "\/var\/folders\/3l\/pxx9ncrs6j38399lw07gqxbw0000gn\/T\/Lens Studio-EdczyV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "TweenManager",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "257",
+                                "dependency": "0",
+                                "uid": "1587002466756711:145712",
+                                "fileId": "153",
+                                "originalId": "18446744073709551615",
+                                "publicId": "81",
+                                "source": "\/var\/folders\/3l\/pxx9ncrs6j38399lw07gqxbw0000gn\/T\/Lens Studio-EdczyV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
