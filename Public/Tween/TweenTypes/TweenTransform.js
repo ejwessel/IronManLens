@@ -7,7 +7,8 @@
 // -----------------
 
 //@input SceneObject sceneObject
-//@input Component.AudioComponent sound
+//@input Component.AudioComponent openSound
+//@input Component.AudioComponent closeSound
 //@input string tweenName
 //@input bool playAutomatically = true
 //@input int loopType = 0 {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Loop", "value":1}, {"label":"Ping Pong", "value":2}, {"label":"Ping Pong Once", "value":3}]}
@@ -190,13 +191,15 @@ function setupTween()
             case 2:
                 script.api.end = (script.type == 2) ? transformParameter : new vec3 ( transformParameter.x, transformParameter.y, transformParameter.z );
                 break;
-            case 3:
+            case 3:            
                 script.api.end = (script.type == 2) ? transformParameter.multiply(quat.angleAxis(script.offset.x * DEG_TO_RAD, vec3.right())).multiply(quat.angleAxis(script.offset.y * DEG_TO_RAD, vec3.up())).multiply(quat.angleAxis(script.offset.z * DEG_TO_RAD, vec3.forward())) : new vec3 ( transformParameter.x + script.offset.x, transformParameter.y + script.offset.y, transformParameter.z + script.offset.z );
                 // this reverses the offset
                 script.offset.x *= -1
                 if (script.offset.x < 0) {
-                    script.sound.play(1)
-                    print(script.sound.audioTrack.name)
+                    script.closeSound.play(1)
+                    print(script.closeSound.audioTrack.name)
+                } else {
+                    script.openSound.play(1)
                 }
                 break;
         }

@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1587006472438",
+    "lastChanged": "1587081329765",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -1264,6 +1264,9 @@
                     [
                         "model",
                         "model"
+                    ],
+                    [
+                        "open_sound"
                     ]
                 ]
             ]
@@ -3322,6 +3325,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "261",
+                    "uid": "1587080678856806:101798",
+                    "name": "Files\/File157.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3376,7 +3387,8 @@
                 "13": "1586899564874189:229434",
                 "14": "1586899564905093:229569",
                 "15": "1586992974272351:404180",
-                "16": "1587006139896384:846689"
+                "16": "1587006139896384:846689",
+                "17": "1587080282999452:39589"
             }
         },
         "LayerComponent": {
@@ -3994,6 +4006,10 @@
                 {
                     "k": "154",
                     "v": "Files\/File154.mp3"
+                },
+                {
+                    "k": "157",
+                    "v": "Files\/File157.mp3"
                 }
             ]
         },
@@ -4105,6 +4121,10 @@
                     {
                         "k": "103",
                         "v": "close_sound.mp3"
+                    },
+                    {
+                        "k": "106",
+                        "v": "open_sound.mp3"
                     }
                 ],
                 "hashes": [
@@ -4158,7 +4178,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "fd110f085c2cdeaa853cb6d3612dd4eb"
+                        "v": "2088c85cc3a321495906b0fa8d445352"
                     },
                     {
                         "k": "18",
@@ -4166,7 +4186,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "06c987e7842caeda3b1f8fa00ce6b19c"
+                        "v": "4b4afc3615328699f3f73bf6b90c523c"
                     },
                     {
                         "k": "20",
@@ -4202,7 +4222,7 @@
                     },
                     {
                         "k": "80",
-                        "v": "a243f1e21f215e3d4cc798099ea458bc"
+                        "v": "41340eff4308a1da6663ab9d22b54910"
                     },
                     {
                         "k": "81",
@@ -4267,45 +4287,57 @@
                     {
                         "k": "103",
                         "v": "1859ee28fa6bc740548b4efed0ee0452"
+                    },
+                    {
+                        "k": "104",
+                        "v": "fdb0722a1062e6075139821c76ad33e2"
+                    },
+                    {
+                        "k": "105",
+                        "v": "31bafc6fb2c6b112c6b7de2dc695fe83"
+                    },
+                    {
+                        "k": "106",
+                        "v": "f186c81e6ea4b3800af6663499a0727c"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-15T23:06:45",
+                        "lastModified": "2020-04-16T19:45:18",
                         "name": "Public",
-                        "hash": "d0c7d903053f343d1e8b9e7f57cbbf0d",
+                        "hash": "e9dc00efeabeec4d64dc2c7e05d539ad",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T23:06:45",
+                                "lastModified": "2020-04-16T19:45:17",
                                 "name": "FaceShield.lsmat",
-                                "hash": "3645e9d861dbc916e3c9fb2470012a03",
+                                "hash": "db8e64dec956b7dc9b1f094c0758d49a",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:49:30",
                                 "name": "Textures",
                                 "hash": "d9307bdf22b0d9d7019f0ae8f42e556d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-15T22:53:12",
+                                        "lastModified": "2020-04-14T18:49:30",
                                         "name": "Car_Paint_Noise.jpg",
                                         "hash": "0c54c119030470f52a2c73733233d08d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-15T22:53:12",
+                                        "lastModified": "2020-04-14T18:33:36",
                                         "name": "iridescence_combined.png",
                                         "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-15T22:53:12",
+                                        "lastModified": "2020-04-14T18:46:21",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4314,26 +4346,26 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-16T19:27:54",
                                 "name": "Tween",
-                                "hash": "40f2670169edfad8686622c9885a5ebe",
+                                "hash": "be65dedfcf4b39fafa70109c179defc2",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-04-15T23:05:42",
+                                        "lastModified": "2020-04-16T19:54:08",
                                         "name": "TweenTypes",
-                                        "hash": "4d64ca9b7691900f5311fb55648cc665",
+                                        "hash": "6a75eefdf0947c051828c73c527812b2",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-04-15T23:05:42",
+                                                "lastModified": "2020-04-16T19:54:08",
                                                 "name": "TweenTransform.js",
-                                                "hash": "a243f1e21f215e3d4cc798099ea458bc",
+                                                "hash": "41340eff4308a1da6663ab9d22b54910",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-04-15T22:53:12",
+                                                "lastModified": "2020-04-16T19:27:54",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4342,21 +4374,21 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-15T22:53:12",
+                                        "lastModified": "2020-04-16T19:27:54",
                                         "name": "TweenManager.js",
                                         "hash": "a094f372f9487690786f930bd7030e82",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-15T22:53:12",
+                                        "lastModified": "2020-04-16T19:27:54",
                                         "name": "Tween.js",
                                         "hash": "db1633dd326bc8f976dd02c2fdb5bbf4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-15T22:53:12",
+                                        "lastModified": "2020-04-16T19:27:54",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4365,56 +4397,63 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "echopark_diff.png",
                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:46:19",
+                                "lastModified": "2020-04-16T19:44:16",
+                                "name": "open_sound.mp3",
+                                "hash": "f186c81e6ea4b3800af6663499a0727c",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-04-16T19:27:54",
                                 "name": "close_sound.mp3",
                                 "hash": "1859ee28fa6bc740548b4efed0ee0452",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "echopark_spec.png",
                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "Icon Snippet.png",
                                 "hash": "2f0e549a7921634ab8669abd38078b75",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T23:06:45",
+                                "lastModified": "2020-04-16T19:45:18",
                                 "name": "Helm.lsmat",
-                                "hash": "b71615b82bab24fbe5c3d98809bda2f6",
+                                "hash": "663e361451e302696bb7c690e8532dba",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "model.gltf",
                                 "hash": "b8f5b0b4448535a47bdbfb82a618cff2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "Credit Alpha.js",
                                 "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-15T22:53:12",
+                                "lastModified": "2020-04-14T18:26:52",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -7825,6 +7864,19 @@
                         "originalId": "18446744073709551615",
                         "publicId": "103",
                         "source": "\/Users\/ejwessel\/Dev\/IronManLens\/Public\/close_sound.mp3",
+                        "additional": ""
+                    },
+                    {
+                        "name": "open_sound",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "261",
+                        "dependency": "0",
+                        "uid": "1587080678856806:101798",
+                        "fileId": "157",
+                        "originalId": "18446744073709551615",
+                        "publicId": "106",
+                        "source": "\/Users\/ejwessel\/Downloads\/REVERSE_Iron man suit up sound effects free 0.2s - 1.2s (4YF6PxXcGk8) 961 (online-audio-converter.com).mp3",
                         "additional": ""
                     }
                 ]
