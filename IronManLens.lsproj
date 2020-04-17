@@ -3,7 +3,7 @@
     "document_id": "wvcwwnaOrCIBQDPGnTg_",
     "original_document_id": "wvcwwnaOrCIBQDPGnTg_",
     "version": "23",
-    "lastChanged": "1587081329765",
+    "lastChanged": "1587084955347",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -4178,7 +4178,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "2088c85cc3a321495906b0fa8d445352"
+                        "v": "5229079ff36f1e726d4c5da7feaa3938"
                     },
                     {
                         "k": "18",
@@ -4186,7 +4186,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "4b4afc3615328699f3f73bf6b90c523c"
+                        "v": "c6fc71705681d99f2ce12ee9f49268d2"
                     },
                     {
                         "k": "20",
@@ -4222,7 +4222,7 @@
                     },
                     {
                         "k": "80",
-                        "v": "41340eff4308a1da6663ab9d22b54910"
+                        "v": "7009888c9cb8a61cd8453f29a3faf6d7"
                     },
                     {
                         "k": "81",
@@ -4304,40 +4304,40 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-04-16T19:45:18",
+                        "lastModified": "2020-04-16T20:55:08",
                         "name": "Public",
-                        "hash": "e9dc00efeabeec4d64dc2c7e05d539ad",
+                        "hash": "9b820e515859f51dae8419ff2747ffbd",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-16T19:45:17",
+                                "lastModified": "2020-04-16T20:55:08",
                                 "name": "FaceShield.lsmat",
-                                "hash": "db8e64dec956b7dc9b1f094c0758d49a",
+                                "hash": "668ccca28261604074748fb5ffc0f264",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-14T18:49:30",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "Textures",
                                 "hash": "d9307bdf22b0d9d7019f0ae8f42e556d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T18:49:30",
+                                        "lastModified": "2020-04-16T20:50:08",
                                         "name": "Car_Paint_Noise.jpg",
                                         "hash": "0c54c119030470f52a2c73733233d08d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T18:33:36",
+                                        "lastModified": "2020-04-16T20:50:08",
                                         "name": "iridescence_combined.png",
                                         "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-14T18:46:21",
+                                        "lastModified": "2020-04-16T20:50:08",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4346,26 +4346,26 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-04-16T19:27:54",
+                                "lastModified": "2020-04-16T20:54:36",
                                 "name": "Tween",
-                                "hash": "be65dedfcf4b39fafa70109c179defc2",
+                                "hash": "942702ada9affa4754c2135f510f4261",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-04-16T19:54:08",
+                                        "lastModified": "2020-04-16T20:54:36",
                                         "name": "TweenTypes",
-                                        "hash": "6a75eefdf0947c051828c73c527812b2",
+                                        "hash": "9487bbc62f3fd4c42c30e8032ff74bc0",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-04-16T19:54:08",
+                                                "lastModified": "2020-04-16T20:54:36",
                                                 "name": "TweenTransform.js",
-                                                "hash": "41340eff4308a1da6663ab9d22b54910",
+                                                "hash": "7009888c9cb8a61cd8453f29a3faf6d7",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-04-16T19:27:54",
+                                                "lastModified": "2020-04-16T20:54:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4374,21 +4374,21 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-16T19:27:54",
+                                        "lastModified": "2020-04-16T20:54:36",
                                         "name": "TweenManager.js",
                                         "hash": "a094f372f9487690786f930bd7030e82",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-16T19:27:54",
+                                        "lastModified": "2020-04-16T20:54:36",
                                         "name": "Tween.js",
                                         "hash": "db1633dd326bc8f976dd02c2fdb5bbf4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-04-16T19:27:54",
+                                        "lastModified": "2020-04-16T20:54:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4397,63 +4397,63 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "echopark_diff.png",
                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-16T19:44:16",
+                                "lastModified": "2020-04-16T20:54:36",
                                 "name": "open_sound.mp3",
                                 "hash": "f186c81e6ea4b3800af6663499a0727c",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-16T19:27:54",
+                                "lastModified": "2020-04-16T20:54:36",
                                 "name": "close_sound.mp3",
                                 "hash": "1859ee28fa6bc740548b4efed0ee0452",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "echopark_spec.png",
                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "Icon Snippet.png",
                                 "hash": "2f0e549a7921634ab8669abd38078b75",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-16T19:45:18",
+                                "lastModified": "2020-04-16T20:55:08",
                                 "name": "Helm.lsmat",
-                                "hash": "663e361451e302696bb7c690e8532dba",
+                                "hash": "08ff7df34db0f5fff51acb174de3a3a9",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "model.gltf",
                                 "hash": "b8f5b0b4448535a47bdbfb82a618cff2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "Credit Alpha.js",
                                 "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-04-14T18:26:52",
+                                "lastModified": "2020-04-16T20:50:08",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
