@@ -197,7 +197,6 @@ function setupTween()
                 script.offset.x *= -1
                 if (script.offset.x < 0) {
                     script.closeSound.play(1)
-                    print(script.closeSound.audioTrack.name)
                 } else {
                     script.openSound.play(1)
                 }
